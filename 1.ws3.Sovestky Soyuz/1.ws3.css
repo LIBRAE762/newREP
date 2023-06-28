@@ -1,0 +1,94 @@
+.center {
+    text-align: center;
+}
+body {
+    font-family: arial;
+}
+.superiorB1 {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px lime;
+    height: auto;
+    justify-content: center;
+    background-color: gray;
+    position: absolute;
+    left: 1;
+}
+.superiorC1 {
+    display: flex;
+    border: solid 1px lime;
+    background-color: grey;
+    position: absolute;
+    left: 1;
+    height: auto;
+    flex-direction: row;
+}
+.superiorC {
+    display: flex;
+    background-color: black;
+    border: solid 2px lime;
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    font-family: arial black;
+}
+.superiorB {
+    display: flex;
+    background-color: black;
+    border: solid 2px lime;
+    height: 170px;
+    justify-content: flex-start;
+    width: 300px;
+    flex-direction: column;
+    text-align: left;
+    font-family: arial black;
+}
+.superiorA {
+    display: flex;
+    border: solid 2px lime;
+    height: 70px;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.inferior {
+    border: solid 2px lime;
+    margin: 20px;
+    background-color: black;
+    color: limegreen;
+}
+.inferior1 {
+    border: solid 2px lime;
+    margin: 10px;
+}
+.subSUPERIOR {
+    position: relative;
+}
+.shot {
+    position: absolute;
+    top: 148px;
+    left: 1150px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+}
+.shot1 {
+    position: absolute;
+    top: 159px;
+    left: 1235px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+}
+.shot2 {
+    position: absolute;
+    top: 165px;
+    left: 520px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+    transform: rotate(184deg);
+}
