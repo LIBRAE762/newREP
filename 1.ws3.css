@@ -1,0 +1,497 @@
+.center {
+    text-align: center;
+}
+body {
+    font-family: arial;
+    
+}
+.diver {
+    background-color: #000030;
+}
+.superiorB1 {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px lime;
+    height: auto;
+    justify-content: center;
+    background-color: gray;
+    position: absolute;
+    
+}
+.superiorC1 {
+    display: flex;
+    border: solid 1px lime;
+    background-color: grey;
+    position: absolute;
+    height: auto;
+    flex-direction: row;
+    width: 1897px;
+}
+.superiorC {
+    display: flex;
+    background-color: black;
+    border:  solid 2px lime;
+    height: 50px;
+    width: 298px;
+    justify-content: center;
+    text-align: center;
+    font-family: arial black;
+    position: relative;
+}
+.superiorB {
+    display: flex;
+    background-color: black;
+    border: solid 2px lime;
+    height: 170px;
+    justify-content: flex-start;
+    width: 298px;
+    flex-direction: column;
+    text-align: left;
+    font-family: arial black;
+}
+.superiorA {
+    display: flex;
+    border: solid 2px lime;
+    height: 70px;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    width: 1896px;
+}
+.inferior {
+    border: solid 2px lime;
+    margin: 20px;
+    background-color: black;
+    color: limegreen;
+}
+.inferior1 {
+    border: solid 2px lime;
+    margin: 10px;
+}
+.subSUPERIOR {
+    position: relative;
+}
+.shot {
+    position: absolute;
+    top: 148px;
+    left: 1150px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+}
+.shot1 {
+    position: absolute;
+    top: 159px;
+    left: 1235px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+}
+.shot2 {
+    position: absolute;
+    top: 165px;
+    left: 520px;
+    z-index: 1;
+    height: 12px;
+    width: 50px;
+    transform: rotate(184deg);
+}
+.inputer {
+    color: lawngreen;
+    font-family: arial black;
+    background-color: black;
+    border-color: lime;
+}
+.BR {
+    margin-top: 155px;
+}
+.enemyShot {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 100px;
+    transform: rotate(150deg);
+}
+@keyframes enemyAttack {
+    0%{
+        transform: translateX(1800px) translateY(-570px);
+       
+    }
+    100%{
+        transform: translateX(1070px) translateY(-118px);
+        
+    }
+}
+.attackFramess {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\enemyShot.png);
+    animation: enemyAttack 1s linear infinite;
+}
+
+.enemyShot1 {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 100px;
+    transform: rotate(150deg);
+}
+@keyframes enemyAttack1 {
+    0%{
+        transform: translateX(1600px) translateY(-570px);
+       
+    }
+    100%{
+        transform: translateX(870px) translateY(-118px);
+        
+    }
+}
+.attackFramess1 {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\enemyShot.png);
+    animation: enemyAttack1 1s linear infinite;
+}
+
+.enemyShot2 {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 100px;
+    transform: rotate(150deg);
+}
+@keyframes enemyAttack2 {
+    0%{
+        transform: translateX(1400px) translateY(-570px);
+       
+    }
+    100%{
+        transform: translateX(670px) translateY(-118px);
+        
+    }
+}
+.attackFramess2 {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\enemyShot.png);
+    animation: enemyAttack2 1s linear infinite;
+}
+
+
+
+.explosionIch {
+    position: absolute;
+    z-index: 2;
+    height: 140px;
+    width: 200px;
+    transform: scaleX(-1) ;
+    top: 53px;
+    left: 1020px;
+}
+.explosionIch1 {
+    position: absolute;
+    z-index: 2;
+    height: 140px;
+    width: 200px;
+    transform: scaleX(-1) ;
+    top: 53px;
+    left: 820px;
+}
+.explosionIch2 {
+    position: absolute;
+    z-index: 2;
+    height: 140px;
+    width: 200px;
+    transform: scaleX(-1) ;
+    top: 59px;
+    left: 620px;
+}
+
+.torpedo {
+    position: absolute;
+    z-index: 3;
+    height: 40px;
+    width: 100px;
+}
+@keyframes u-boatATTACK {
+    0%{
+        transform: translateX(1810px) translateY(-85px);
+       
+    }
+    100%{
+        transform: translateX(1070px) translateY(-85px);
+        
+    }
+}
+.torpedoHITt {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\MU90-U-BOAT2-P.png);
+    animation: u-boatATTACK 4s linear infinite;
+}
+.unter-wasser {
+    position: absolute;
+    z-index: 2;
+    height: 90px;
+    width: 120px;
+    top: 115px;
+    left: 1030px;
+}
+
+.RUSSair {
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 125px;
+    transform: scaleX(-1) rotate(345deg);
+}
+@keyframes RUSSATTACK {
+    0%{
+        transform: translateX(1px) translateY(-400px);
+    }
+    100%{
+        transform: translateX(1890px) translateY(-400px);
+    }
+}
+.RUSSairr {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\russicheFlugzeug.png);
+    animation: RUSSATTACK 3s linear infinite;
+}
+
+.airD {
+    position: absolute;
+    z-index: 3;
+    height: 55px;
+    width: 40px;
+}
+@keyframes RUSSAIRd {
+    0%{
+        transform: translateX(1150px) translateY(-400px); 
+    }
+    90%{
+        transform: translateX(1266px) translateY(-157px);
+    }
+    100%{
+        transform: translateX(1266px) translateY(-157px); 
+    }
+}
+.RUSSAIRDROP{
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\airDROP.png);
+    animation: RUSSAIRd 4s linear infinite;
+}
+
+.RUSSairD {
+    position: absolute;
+    z-index: 3;
+    height: 50px;
+    width: 140px;
+    transform: scaleX(-1);
+}
+@keyframes RUSSflug {
+    0%{
+        transform: translateX(0px) translateY(-400px)
+    }
+    100%{
+        transform: translateX(1890px) translateY(-400px)
+    }
+}
+.RUSSFLUGd {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\russAIRDROP.png);
+    animation: RUSSflug 4s linear infinite;
+}
+
+.FEUER {
+    position: absolute;
+    z-index: 3;
+    height: 110px;
+    width: 130px;
+    top: 73px;
+    left: 1035px;
+}
+.FEUER1 {
+    position: absolute;
+    z-index: 3;
+    height: 140px;
+    width: 130px;
+    top: 43px;
+    left: 839px;
+}
+.FEUER2 {
+    position: absolute;
+    z-index: 3;
+    height: 140px;
+    width: 130px;
+    top: 45px;
+    left: 639px;
+}
+
+.FLUGzeug {
+    position: absolute;
+    z-index: 4;
+    height: 30px;
+    width: 110px;
+    transform: rotate(353deg);
+}
+@keyframes FLUGzeugATK {
+    0%{
+        transform: translateX(1890px) translateY(-400px);
+    }
+    100%{
+        transform: translateX(1px) translateY(-400px);
+    }
+}
+.FLUGatk {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\spitfire.png);
+    animation: FLUGzeugATK 4s linear infinite;
+}
+
+.bomberen {
+    position: absolute;
+    z-index: 2;
+    height: 11px;
+    width: 28px;
+    transform: rotate(140deg);
+}
+@keyframes bomberenFRAME {
+    0%{
+        transform: translateX(1200px) translateY(-385px);   
+    }
+    100%{
+        transform: translateX(870px) translateY(-118px);
+    }
+}
+@keyframes bomberenFRAME1 {
+    0%{
+        transform: translateX(1400px) translateY(-385px);
+    }
+    100%{
+        transform: translateX(1070px) translateY(-118px);
+    }
+}
+@keyframes bomberenFRAME2 {
+    0%{
+        transform: translateX(1000px) translateY(-385px);
+    }
+    100%{
+        transform: translateX(670px) translateY(-118px);
+    }
+}
+.FLUGbomb {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\bomb.png);
+    animation: bomberenFRAME 1s linear infinite;
+}
+.FLUGbomb1 {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\bomb.png);
+    animation: bomberenFRAME1 1s linear infinite;
+}
+.FLUGbomb2 {
+    background-image: url(C:\Users\PC\Desktop\workSpace\ws3\1.ws3.SovestkySoyuz\public\sovetFrames\bomb.png);
+    animation: bomberenFRAME2 1s linear infinite;
+}
+
+.explosionFLUG {
+    position: absolute;
+    z-index: 4;
+    height: 100px;
+    width: 150px;
+    top: 103px;
+    left: 1020px;
+}
+.explosionFLUG1 {
+    position: absolute;
+    z-index: 4;
+    height: 100px;
+    width: 150px;
+    top: 103px;
+    left: 820px;
+}
+.explosionFLUG2 {
+    position: absolute;
+    z-index: 4;
+    height: 100px;
+    width: 150px;
+    top: 103px;
+    left: 620px;
+}
+
+.AAgun {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 134px;
+    left: 679px;
+    transform: rotate(198deg);
+}
+.AAgun1 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 129px;
+    left: 700px;
+    transform: rotate(198deg);
+}
+.AAgun2 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 139px;
+    left: 881px;
+    transform: rotate(198deg);
+}
+.AAgun3 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 144px;
+    left: 750px;
+    transform: rotate(198deg);
+}
+.AAgun4 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 162px;
+    left: 443px;
+    transform: rotate(198deg);
+}
+.AAgun5 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 161px;
+    left: 473px;
+    transform: rotate(198deg);
+}
+.AAgun6 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 138px;
+    left: 944px;
+    transform: rotate(348deg);
+}
+.AAgun7 {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 141px;
+    left: 965px;
+    transform: rotate(348deg);
+}
+
+.zweiteFLASH {
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 148px;
+    left: 916px;
+    transform: rotate(354deg);
+}
+.zweiteFLASH1 {
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 143px;
+    left: 865px;
+    transform: rotate(357deg);
+}
+.zweiteFLASH2 {
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 150px;
+    left: 716px;
+    transform: rotate(183deg);
+}

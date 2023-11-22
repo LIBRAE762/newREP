@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>SRS Sovestky soyuz</title>
+        <link rel="stylesheet" href="1.ws3.css">
+        <link rel="icon" href="imgGeneral/wow.ico" type="image/x-icon">
+    </header>
+    <body>
+        <div class="center">
+            <h1>simulador de navio de Guerra</h1>
+            <br><br><br><br><br><br><br>
+            <div class="subSUPERIOR">
+                <img src="sovetFrames/reversesovet.png" id="Rsovet" style="display: none;">
+                <img src="sovetFrames/1sovet.jpeg" alt="1SOVET" id="sovet" style="display: block;">
+                <img src="sovetFrames/2sovetoldfumace.png" id="sovet11" style="display: none;">
+                <img src="sovetFrames/3sovetfumace.png" id="sovet1" style="display: none;">
+                <img src="sovetFrames/sovetstartfumace.png" id="sovet2" style="display: none;">
+                <img src="sovetFrames/sovetwateringandfumace.png" id="sovet3" style="display: none;">
+                <img class="shot" src="sovetFrames/download.jpg" id="shot" style="display: none;">
+                <img class="shot1" src="sovetFrames/download.jpg" id="shot1" style="display: none;">
+                <img class="shot2" src="sovetFrames/download.jpg" id="shot2" style="display: none;">
+
+                <div id="AAguns" style="display: none;">
+                    <img class="AAgun" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun1" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun2" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun3" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun4" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun5" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun6" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                    <img class="AAgun7" src="sovetFrames/—Pngtree—gun fire muzzle flash effect_8865087.png" style="display: block;">
+                </div>
+                
+                <div id="attackFrames" style="display: none;">
+                    <img class="enemyShot" src="sovetFrames/enemyShot.png" id="enemyShot" style="display: block;">
+                </div>
+                <div id="attackFrames1" style="display: none;">
+                    <img class="enemyShot1" src="sovetFrames/enemyShot.png" id="enemyShot1" style="display: block;">
+                </div>  
+                <div id="attackFrames2" style="display: none;">
+                    <img class="enemyShot2" src="sovetFrames/enemyShot.png" id="enemyShot2" style="display: block;">
+                </div>
+
+                <img class="explosionIch" src="sovetFrames/explosionIch.png" id="explosionIch" style="display: none;"> 
+                <img class="explosionIch1" src="sovetFrames/explosionIch.png" id="explosionIch1" style="display: none;">
+                <img class="explosionIch2" src="sovetFrames/explosionIch.png" id="explosionIch2" style="display: none;">
+                
+                <div id="torpedoHIT" style="display: none;">
+                    <img class="torpedo" src="sovetFrames/MU90-U-BOAT2-P.png" id="torpedo" style="display: block;">
+                </div>
+                
+                <img class="unter-wasser" src="sovetFrames/unter-wasser-explosion.png" id="unter-wasser" style="display: none;">
+
+                <div id="RUSSatk" style="display: none;">
+                    <img class="RUSSair" src="sovetFrames/russicheFlugzeug.png" id="rusatk" style="display: block;">
+                </div>
+
+                <div id="RUSSairdrop" style="display: none;">
+                    <img class="RUSSairD" src="sovetFrames/russAIRDROP.png" id="Rair" style="display: block;">
+                </div>
+
+                <div id="AIRDROP" style="display: none;">
+                    <img class="airD" src="sovetFrames/airDROP.png" id="air" style="display: block;">
+                </div>
+
+                <div>
+                    <img class="FEUER" src="sovetFrames/feuerGIF.gif" id="fire" style="display: none;">
+                    <img class="FEUER1" src="sovetFrames/feuerGIF.gif" id="fire1" style="display: none;">
+                    <img class="FEUER2" src="sovetFrames/feuerGIF.gif" id="fire2" style="display: none;">
+                </div>
+
+                <div id="FLUGatk" style="display: none;">
+                    <img class="FLUGzeug" src="sovetFrames/spitfire.png" style="display: block;">
+                </div>
+
+                <div id="FLUGbomb" style="display: none;">
+                    <img class="bomberen" src="sovetFrames/bomb.png" style="display: block;">
+                </div>
+                <div id="FLUGbomb1" style="display: none;">
+                    <img class="bomberen" src="sovetFrames/bomb.png" style="display: block;">
+                </div>
+                <div id="FLUGbomb2" style="display: none;">
+                    <img class="bomberen" src="sovetFrames/bomb.png" style="display: block;">
+                </div>
+
+                <div>
+                    <img class="explosionFLUG" src="sovetFrames/explosionFLUG.png" id="explosionFLUG" style="display: none;">
+                    <img class="explosionFLUG1" src="sovetFrames/explosionFLUG.png" id="explosionFLUG1" style="display: none;">
+                    <img class="explosionFLUG2" src="sovetFrames/explosionFLUG.png" id="explosionFLUG2" style="display: none;">
+                </div>
+                
+                <img class="zweiteFLASH" src="sovetFrames/zweiteFLASH.png" id="zweiteFLASH" style="display: none;">
+                <img class="zweiteFLASH1" src="sovetFrames/zweiteFLASH.png" id="zweiteFLASH1" style="display: none;">
+                <img class="zweiteFLASH2" src="sovetFrames/zweiteFLASH.png" id="zweiteFLASH2" style="display: none;">
+            </div>
+        </div>
+    
+        <div class="superiorA">
+            <button class="inferior" onclick="trigger()"><span id="active">ativar</span> energia</button>
+            <button class="inferior" id="atTUR" onclick="activeTUR()" style="color: limegreen;"><span id="activeTUR">ativar</span> turbinas</button>
+            <button class="inferior" id="atBP" onclick="activeBP()" style="color: limegreen;"><span id="activeBP">ativar</span> baterias</button>
+            <button class="inferior" id="atAA" onclick="AAactive()" style="color: limegreen;"><span id="activeAA">ativar</span> baterias AA</button>
+            <p class="inferior1"></p>
+            <button class="inferior" id="B1" onclick="newpainel()" style="color: limegreen;">ITFC de navegação</button>
+            <button class="inferior" id="B2" onclick="comms()" style="color: limegreen;">setor de comunicação</button>
+            <button class="inferior" id="B3" onclick="supply()" style="color: limegreen;">suplimentos</button>
+            <button class="inferior" id="B4" onclick="E1()" style="color: limegreen;">informações do navio</button>
+            <p class="inferior1"></p>
+            <p class="inferior" style="margin: 3px; flex-basis: 200px; font-size: small; text-align: left;" id="painel">bem-vindo a bordo do SRS Sovestky Soyuz, agora você está no comando... para começar, ligue a energia do navio.</p>
+        </div>
+        <div class="superiorC1" style="display: flex;" id="1°superiorC1">
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;" onclick="AA()">armas anti-aereas</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;" onclick="BP()">baterias  primarias</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;" onclick="BS()">baterias secundárias</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;" onclick="MeP()">motores/propulsores</p>
+            </div>
+            <div class="superiorC" style="width: 685px;">
+                <p class="inferior" style="border: none; margin: 1px;">painel de controle</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="superiorB1" style="display: flex;" id="1°superiorB1">
+            <div class="superiorB" style="margin: auto; ">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 19px; display: none;" id="wAA" >baterias AA: <span style="color: red;" id="tAA">inoperantes</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 19px; display: none;" id="acAA" >status: <span style="color: red;" id="statAA">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 19px; display: none;" id="mAA" >munição pronta: <span style="color: rgb(255, 0, 0);" id="qAA">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 19px; display: none;" id="nAA" >munição disponivel: <span style="color: rgb(255, 0, 0);" id="jAA">...</span></p>
+            </div>
+            <br>
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat4" onmouseenter="B1()">bateria 1: <span id="inB1" style="color: red;">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat5" onmouseenter="B1S()">status: <span id="sb1" style="color: red;">BP1 desconectado</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat6" onmouseenter="B2()">bateria 2: <span id="inB2" style="color: red;">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat7" onmouseenter="B2S()">status: <span id="sb2" style="color: red;">BP2 desconectado</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat8" onmouseenter="B3()">bateria 3: <span id="inB3" style="color: red;">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat14" onmouseenter="B3S()">status: <span id="sb3" style="color: red;">BP3 desconectado</span></p>
+            </div>
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat9" onmouseenter="BBB()">baterias BB/EB: <span style="color: red;" id="allesPANZER">inoperantes</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat10" onmouseenter="BEB()">A. da mira: <span style="color: red;" id="zielen">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat11" onmouseenter="AD()">artilharia disponivel: <span style="color: red;" id="shells">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat12" onmouseenter="BBS()">disparo auto.: <span style="color: red;" id="AUTOaim">...</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; margin-left: 57px; display: none;" id="stat13" onmouseenter="BES()"><button class="inferior" onclick="trigZWEITEcannonen()" style="margin: 1px;" id="AUTOon"><span id="ZCauto">ativar</span> canhões secundários</button></p>
+            </div>
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat15" onmouseenter="TBB()">turbina BB: <span style="color: red;" id="TBB">desativada</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat16" onmouseenter="C12()">caldeira 1/2: <span style="color: red;" id="C12">inativa</span><span style="display: none;" id="C12K">KG</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat17" onmouseenter="TUC()">turbina central: <span style="color: red;" id="TUC">desativada</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat18" onmouseenter="C34()">caldeira 3/4: <span style="color: red;" id="C34">inativa</span><span style="display: none;" id="C34K">KG</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat19" onmouseenter="TEB()">turbina EB: <span style="color: red;" id="TEB">desativada</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="stat20" onmouseenter="C56()">caldeira 5/6: <span style="color: red;" id="C56">inativa</span><span style="display: none;" id="C56K">KG</span></p>
+            </div>
+            <div class="superiorB" style="margin: auto; width: 685px; flex-wrap: wrap;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="turb1">turbina BB: <button class="inferior" onclick="turbina1()" id="turbbb" style="margin: 5px;">ligar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="cal12">caldeira 1/2: <button class="inferior" onclick="caldeira12()" id="call12" style="margin: 5px;">reabastecer</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="turb2">turbina central: <button class="inferior" onclick="turbina2()" id="turbc" style="margin: 5px;">ligar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="cal34">caldeira 3/4: <button class="inferior" onclick="caldeira34()" id="call34" style="margin: 5px;">reabastecer</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="turb3">turbina EB: <button class="inferior" onclick="turbina3()" id="turbeb" style="margin: 5px;">ligar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="cal56">caldeira 5/6: <button class="inferior" onclick="caldeira56()" id="call56" style="margin: 5px;">reabastecer</button></p>
+                
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="SECS">sistema eletrico do convés superior: <button class="inferior" onclick="SE1()" id="conS" style="margin: 5px;">desativar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="SECP">sistema eletrico do convés principal: <button class="inferior" onclick="SE2()" id="conP" style="margin: 5px;">desativar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="SECI">sistema eletrico do convés inferior: <button class="inferior" onclick="SE3()" id="conI" style="margin: 5px;">desativar</button></p>
+               
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="BP1">bateria principal 1: <button class="inferior" onclick="rB1()" id="SBP1" style="margin: 5px;">recarregar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="dBP1"><button class="inferior" onclick="dB1()" id="D1" style="margin: 5px;">Disparar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="BP2">bateria principal 2: <button class="inferior" onclick="rB2()" id="SBP2" style="margin: 5px;">recarregar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="dBP2"><button class="inferior" onclick="dB2()" id="D2" style="margin: 5px;">Disparar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="BP3">bateria principal 3: <button class="inferior" onclick="rB3()" id="SBP3" style="margin: 5px;">recarregar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="dBP3"><button class="inferior" onclick="dB3()" id="D3" style="margin: 5px;">Disparar</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="TYPER">tipo de munição: <span  class="inferior" id="typerCA" style="margin: 5px; border: none;">PE</span><button class="inferior" onclick="tradeCATRI()" id="TCT" style="margin: 5px;">trocar calibre</button></p>
+
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="sTITLE">suplimentos do navio:</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="mPE">munição perfurador de blindagem(PE): <span class="inferior" id="PE" style="margin: 5px; border: none;">45</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="mHE">munição altamente explosiva(HE): <span class="inferior" id="HE" style="margin: 5px; border: none;">45</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 50px; display: none;" id="COAL">carvão: <span class="inferior" id="kgCOAL" style="margin: 5px; border: none;">17496</span>kg</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="repair">material de reparo: <span class="inferior" id="meinREPAIR" style="margin: 5px; border: none;">0</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="feuer">extintores: <span class="inferior" id="meinFEUER" style="margin: 5px; border: none;">0</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="electric">material de reparo eletrico: <span class="inferior" id="meinENERGY" style="margin: 5px; border: none;">0</span></p>
+                
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="cve">controle de velocidade</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="inc">aumentar velocidade: <button class="inferior" id="auv" onclick="increaseVEL()" style="margin: 5px; border: block;">=</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="dec">diminuir velocidade: <button class="inferior" id="div" onclick="decreaseVEL()" style="margin: 5px; border: block;">=</button></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="nivelVEL">nivel de velocidade: <span class="inferior" id="lev" style="margin: 5px; border: none;">0</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="indeVEL">velocimetro independente: <span class="inferior" id="inlev" style="margin: 5px; border: none;">0</span></p>
+                <button class="inferior" id="inINDE" onclick="increaseINDE()" style="margin: 1px; border: block; display: none; margin-bottom: 5px;">|aumentar V.I.|</button>
+                <button class="inferior" id="deINDE" onclick="decreaseINDE()" style="margin: 1px; border: block; display: none; margin-bottom: 5px;">|diminuir V.I.|</button>
+            
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="AAb">baterias anti-aereas</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="AAs">quantidade total: <span id="AAquant"></span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px; display: none;" id="AAq"><button class="inferior" id="munic" onclick="AAM()" style="margin: 5px; border: block;">municiar baterias AA</button></p>
+                
+                <div id="ZWEITEcanonen" style="display: none;">
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px;">torretas secundárias</p>
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px;" id="ZWEITEpainel">--</p>
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 5px;"><button class="inferior" onclick="trigAUTOshot()" style="margin: 5px; border: block;"><span id="activeZC1">ativar</span> disparo automatico</button></p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="superiorC1" style="display: none; top: 553px;" id="2°superiorC1">
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;">sistema eletrico</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;">sistema operacional</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;">dados de embarcações</p>
+            </div>
+            <div class="superiorC">
+                <p class="inferior" style="border: none; margin: 1px;">status do navio</p>
+            </div>
+            <div class="superiorC" style="width: 685px;">
+                <p class="inferior" style="border: none; margin: 1px; ">painel de controle [comms]</p>
+            </div>
+        </div>
+        <div class="superiorB1" style="display: none;" id="2°superiorB1">
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;" onmouseenter="tester()">energia: <span style="color: red;" id="energia">desativada</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat0" onmouseenter="gerador()">geradores: <span style="color: lime;" id="EG">operante</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat1" onmouseenter="CS()">convés superior: <span style="color: lime;" id="CVS">estavel</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat2" onmouseenter="CP()">convés principal: <span style="color: lime;" id="CVP">estavel</span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px; display: none;" id="stat3" onmouseenter="CI()">convés inferior: <span style="color: lime;" id="CVI">estavel</span></p>
+            </div>
+            <div class="superiorB" style="margin: auto;">
+                
+                <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="STAT()">M.R.N.</button>
+                <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="E2()">M.C.N.</button>
+                <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="ATK()">M.A.N.</button>
+                <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="BNS()">G.N.</button>
+                <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="E3()">S.G.N.</button>
+            </div>
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px;">nome: <span id="nameSHIP">--</span></p>
+                <p class="inferior" style="border: none; margin: 1px;">categoria: <span id="typeSHIP">--</span></p>
+                <p class="inferior" style="border: none; margin: 1px;">país: <span id="countrySHIP">--</span></p>
+                <p class="inferior" style="border: none; margin: 1px;">status: <span id="rivalSHIP">--</span></p>
+                <p class="inferior" style="border: none; margin: 1px;">distancia: KM <span id="distanceSHIP">--</span></p>
+                <p class="inferior" style="border: none; margin: 1px;">HP: <span id="hpSHIP">--</span></p>
+            </div>
+            <div class="superiorB" style="margin: auto;">
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;">HP: <span id="sovetD1"></span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;">--------</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;">anomalia: <span id="sovetD2"></span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;">--------</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;">alerta: <span id="sovetD3"></span></p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px; display: none;">--------</p>
+                <p class="inferior" style="border: none; margin: 1px; margin-bottom: 0px;"><span id="sovetD4"></span></p>                
+            </div>
+            <div class="superiorB" style="margin: auto; width: 685px; flex-wrap: wrap;">
+                <div style="border: none; margin: 1px; margin-bottom: 1px; display: block; flex-wrap: wrap;">
+                    <div style="flex-direction: row; ">
+                        <span class="inferior" style="border: none; margin: 1px; display: none;" id="sameNUMB">KM:<input class="inputer" type="number" name="coordenance" style="display: none;" id="bns"></span>
+                        <button class="inferior" style=" margin: 1px; margin-bottom: 12px; display: none;" onclick="ver()" id="veri">verificar coordenadas</button>
+                        <form >
+                            <select onchange="NSWEupdate()" class="inputer" style="display: none;" id="NSWE" >
+                                <option value="north">Norte</option>
+                                <option value="west">oeste</option>
+                                <option value="east">leste</option>
+                                <option value="south">Sul</option>
+                            </select>
+                        </form>
+                        <p class="inferior" style="border: none; margin: 1px; display: none;" id="paraNUMB">digite o (KM) para obter a localização de uma cidade portuária(entre 0-200)</p>
+                        <p class="inferior" style="border: none; margin: 1px; display: none;" id="localNUMB">localização atual: <span id="atualNUMB"></span></p>
+                    </div>
+                </div>
+                <div id="LOCAL" style="display: none;">
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;"><span id="meineLOCAL">escolha uma localidade para determinar uma rota...</span> <button class="inferior" style=" margin: 1px; margin-bottom: 12px;" onclick="selecROTE()" id="ROTE">selecionar rota</button></p>
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;" id="selecLOCAL">localização selecionada: <span id="neuLOCAL"></span></p>
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;">distancia: <span id="distanceLOCAL"></span></p>
+                </div>
+
+                <div id="COMM" style="display: none;">
+                    <div style="flex-direction: row; flex-wrap: nowrap; position: relative;">
+                        <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;" id="whatCOMM">modulo[COMM]</p>
+                        <button id="yesSHIP" style="display: none;" class="inferior" onclick="yes()">Sim</button>
+                        <button id="neinSHIP" style="display: none;" class="inferior" onclick="nein()">Não</button>
+                    </div>
+                    <div id="dochUBOOT" style="display: none;">
+                        <button id="yesUBOOT" class="inferior" onclick="yesU()">Sim</button>
+                        <button id="neinUBOOT" class="inferior" onclick="neinU()">Não</button>
+                    </div>  
+                    <select onchange="selectedCOMM()" class="inputer" id="selecCOMM">
+                        <option value="">escolha uma das opções abaixo</option>
+                        <option value="PI">pesquisar por embarcações</option>
+                        <option value="LI">leitura de uma embarcação</option>
+                        <option value="UB">detectar submarino</option>
+                        <option value="AIRdropp">reabastecer S. do [MRN]</option>
+                    </select>
+                </div>
+                
+                <div id="ATK" style="display: none;">
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;" id="whatATK">modulo[ATK]</p>          
+                    <select onchange="selecATK1()" class="inputer" id="selecATK">
+                        <option value="">escolha uma ação</option>
+                        <option value="ST">apontar artilharia para um alvo</option>
+                        <option value="AU">atacar um submarino</option>
+                        <option value="FA">atacar uma aeronave</option>
+                    </select>
+                    <br>
+                    <div id="UBOOTatk" style="display: none;">
+                        <input class="inputer" type="number" id="UBOOTatk1">
+                        <button class="inferior" style=" margin: 1px;" onclick="send()" id="sender">enviar ataque</button>
+                    </div> 
+                    <div id="AAatk" style="display: none;">
+                        <input class="inputer" type="number" id="AAatk1">
+                        <button class="inferior" style=" margin: 1px;" onclick="AAT()" id="senderAA">Disparar</button>
+                        <p class="inferior" style="border: none; margin: 1px; margin-bottom: 12px;" id="FLUGINDEX">localização: KM <span id="dieserFLUG"></span></p>
+                    </div>                 
+                </div>
+
+                <div id="INFO" style="display: none;">
+                    <p class="inferior" style="border: none; margin: 1px; margin-bottom: 9px; justify-items: left;" id="whatINFO">modulo[MRN]</p>
+                    <button class="inferior" style=" margin: 1px; margin-bottom: 5px" onclick="startCOMBATfeuer()" id="FEUERCOM"><span>apagar incendio</span></button>
+                    <br>
+                    <button class="inferior" style=" margin: 1px; margin-bottom: 5px" onclick=" SCHIFFSRUMPFschadenWERKZEUG()" id=""><span>reparar casco</span></button>
+                    <br>
+                    <button class="inferior" style=" margin: 1px; margin-bottom: 5px" onclick="startREPAIRelectric()" id="RE"><span>reparar sistema eletrico</span></button>
+                    <br>
+                    <button class="inferior" style=" margin: 1px; margin-bottom: 5px" onclick="NPMelectric()"><span id="ele">instalar kit de R. eletrico </span></button>
+                </div>
+            </div>
+        </div>
+        <br >
+        <img class="BR" src="imgGeneral/black metal.jpg" alt="texture" style="width: 1898px; height: 157px;">
+        
+        <div>
+            <audio id="playAU1">
+                <source src="sounds/sovetskySHOOT.mp3">
+            </audio>
+            <audio id="playAU1.2">
+                <source src="sounds/sovetskySHOOT.mp3">
+            </audio>
+            <audio id="playAU1.3">
+                <source src="sounds/sovetskySHOOT.mp3">
+            </audio>
+
+            <audio id="playAU2">
+                <source src="sounds/reloadSOYUZ.mp3">
+            </audio>
+            <audio id="playAU2.2">
+                <source src="sounds/reloadSOYUZ.mp3">
+            </audio>
+            <audio id="playAU2.3">
+                <source src="sounds/reloadSOYUZ.mp3">
+            </audio>
+
+            <audio id="playAU3">
+                <source src="sounds/RELOAD1.mp3">
+            </audio>
+            <audio id="playAU3.2">
+                <source src="sounds/RELOAD1.mp3">
+            </audio>
+            <audio id="playAU3.3">
+                <source src="sounds/RELOAD1.mp3">
+            </audio>
+
+
+            <audio id="playAUR1">
+                <source src="sounds/coalRECHARGE.mp3">
+            </audio>
+            <audio id="playAUR2">
+                <source src="sounds/coalRECHARGE.mp3">
+            </audio>
+            <audio id="playAUR3">
+                <source src="sounds/coalRECHARGE.mp3">
+            </audio>
+ 
+            
+            <audio id="playEX1">
+                <source src="sounds/mixkit-explosion-.wav">
+            </audio>
+            <audio id="playEX2">
+                <source src="sounds/mixkit-explosion-.wav">
+            </audio>
+            <audio id="playEX3">
+                <source src="sounds/mixkit-explosion-.wav">
+            </audio>
+
+            <audio id="playUNTER">
+                <source src="sounds/mixkit-U-BOOT-attack-1338.wav">
+            </audio>
+
+
+
+            <audio id="playDISTEX1">
+                <source src="sounds/mixkit-bomb-distant-explotion-2772.wav">
+            </audio>
+            <audio id="playDISTEX2">
+                <source src="sounds/mixkit-bomb-distant-explotion-2772.wav">
+            </audio>
+            <audio id="playDISTEX3">
+                <source src="sounds/mixkit-bomb-distant-explotion-2772.wav">
+            </audio>
+
+
+
+
+            <audio id="playHIT1">
+                <source src="sounds/distant-explosion.wav">
+            </audio>
+            <audio id="playHIT2">
+                <source src="sounds/distant-explosion.wav">
+            </audio>
+            <audio id="playHIT3">
+                <source src="sounds/distant-explosion.wav">
+            </audio>
+
+
+            <audio id="playHIT2.1">
+                <source src="sounds/mixkit-smoke-bomb-2802.wav">
+            </audio>
+            <audio id="playHIT2.2">
+                <source src="sounds/mixkit-smoke-bomb-2802.wav">
+            </audio>
+            <audio id="playHIT2.3">
+                <source src="sounds/mixkit-smoke-bomb-2802.wav">
+            </audio>
+
+
+            <audio id="playSONARgo">
+                <source src="sounds/90340__digit-al__sonar.wav">
+            </audio>
+            <audio id="playSONARcome">
+                <source src="sounds/166701__hth2000__sonar.wav">
+            </audio>
+            <audio id="playSONARdist">
+                <source src="sounds/42796__digifishmusic__sonar-ping.wav">
+            </audio>
+            <audio id="playMORSE">
+                <source src="sounds/audiomass-morse.mp3">
+            </audio>
+            <audio id="playMORSE2">
+                <source src="sounds/audiomass-morse2.mp3">
+            </audio>
+            <audio id="playTORRET">
+                <source src="sounds/audiomass-torret2.mp3">
+            </audio>
+             <audio id="playPLANEPASS">
+                <source src="sounds/audiomass-airplanePASSING.mp3">
+            </audio>
+            <audio id="playUNTEREXPLOSION">
+                <source src="sounds/audiomass-unterEXPLOSION.mp3">
+            </audio>
+            <audio id="playUNTERMISS">
+                <source src="sounds/audiomass-missunter.mp3">
+            </audio>
+            <audio id="playCARGOruss">
+                <source src="sounds/audiomass-heavyFLUGZEUG.mp3">
+            </audio>
+
+            <audio id="playPOWERon">
+                <source src="sounds/257229__javierzumer__charging-power.wav">
+            </audio>
+            <audio id="playPOWERoff">
+                <source src="sounds/audiomass-power-off.mp3">
+            </audio>
+
+            <audio id="playEXPLOSIONflug">
+                <source src="sounds/audiomass-flugBOMB (1).mp3">
+            </AUDIo>
+            <audio id="playFLUGfeuerPASS">
+                <source src="sounds/audiomass-spitfire.mp3">
+            </AUDIo>
+
+            <audio id="playAAgunSOUND">
+                <source src="sounds/audiomass-AAGUNsound3.mp3">
+            </audio>
+            <audio id="playAAschnellRELOAD">
+                <source src="sounds/audiomass-AAschnellRELOAD.mp3">
+            </audio>
+            <audio id="playAAgunREALreload">
+                <source src="sounds/audiomass-AAgunREALreload.mp3">
+            </audio>
+
+            <audio id="playWERKZEUGEN">
+                <source src="sounds/audiomass-werkzeugen.mp3">
+            </audio>
+            <audio id="playHAMMER">
+                <source src="sounds/audiomass-HAMMER.mp3">
+            </audio>
+            <audio id="playRATCHET">
+                <source src="sounds/audiomass-RATCHET.mp3">
+            </audio>
+
+            <audio id="playZWEITEshot">
+                <source src="sounds/audiomass-ZWEITEshot.mp3">
+            </audio>
+            <audio id="playZWEITEshot1">
+                <source src="sounds/audiomass-ZWEITEshot.mp3">
+            </audio>
+            <audio id="playZWEITEshot2">
+                <source src="sounds/audiomass-ZWEITEshot.mp3">
+            </audio>
+
+
+            <audio id="playZWEITElade">
+                <source src="sounds/audiomass-ZWEITElade.mp3">
+            </audio>
+            <audio id="playEXPLOSIONausZWEI">
+                <source src="sounds/audiomass-explosionAUSzwei.mp3">
+            </audio>
+
+            <audio id="playTRADEcatri">
+                <source src="sounds/audiomass-tradeCATRI.mp3">
+            </audio>
+            <audio id="playHEshot">
+                <source src="sounds/audiomass-HEshot.mp3">
+            </audio>
+            <audio id="playHEshot1">
+                <source src="sounds/audiomass-HEshot.mp3">
+            </audio>
+            <audio id="playHEshot2">
+                <source src="sounds/audiomass-HEshot.mp3">
+            </audio>
+
+            <audio id="playHEatk">
+                <source src="sounds/audiomass-HEatk.mp3">
+            </audio>
+            <audio id="playHEatk1">
+                <source src="sounds/audiomass-HEatk.mp3">
+            </audio>
+            <audio id="playHEatk2">
+                <source src="sounds/audiomass-HEatk.mp3">
+            </audio>
+        </div>   
+    </body>
+    <footer>
+        <script src="1.ws3.js"></script>
+    </footer>
+</html>
